@@ -121,24 +121,21 @@ padding: 24px 0 24px;
 .contacts{
     font-style: normal;  
 }
-.contacs-item:first-child{
-    margin-right: 40px 
-}
-.contacs-item:last-child{
-    margin-right: 0px 
+.contacs-item-list{
+   
 }
 
    
 .contacts-menu-list {
     display: flex;
   gap: 40px;
-  margin-left: auto;
-  padding-top: 100px;
+  padding-top: 24px 0;
+  
 
 }
 
 
-.contacts-link {
+.contacts-link-item {
     color: #434455;
 font-size: 16px;
 font-weight: 400;
@@ -146,9 +143,10 @@ font-style: normal;
 line-height: 1.5;
 letter-spacing: 0.02em;
 
+
 }
-.contacts-link:hover,
-.contacts-link:focus{
+.contacts-link-item:hover,
+.contacts-link-item:focus {
     color: #404BBF;
 }
 
