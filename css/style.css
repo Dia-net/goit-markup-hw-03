@@ -121,9 +121,15 @@ padding: 24px 0 24px;
 .contacts{
     font-style: normal;  
 }
+.contacs-item:first-child{
+    margin-right: 40px 
+}
+.contacs-item:last-child{
+    margin-right: 0px 
+}
 
    
-.contacts-menu {
+.contacts-menu-list {
     display: flex;
   gap: 40px;
   margin-left: auto;
@@ -151,13 +157,14 @@ letter-spacing: 0.02em;
 
 /* =====FIRST SECTION===== */
 .solutions-container{
-    padding: 188px 0 188px;
+  
     
    
     
 }
 .solutions {
     background-color: #2E2F42;
+    padding: 188px 0;
 
     
 }
@@ -227,15 +234,17 @@ letter-spacing: 0.02em;
 
 /* =====OUT TEAM===== */
 .team-container{
-    padding: 120px 0;
+    
 }
 .team{
     background: #F4F4FD;
+    padding: 120px 0;
 }
 .team-list{
     display: flex;
     gap: 24px;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 
 }
 .team-item{
@@ -271,7 +280,7 @@ margin-bottom: 8px;
 .team-img{
 margin-bottom: 32px;
 }
-.team-text {
+.team-text-position {
     color:  #434455;
     background-color: #FFFFFF;
 text-align: center;
