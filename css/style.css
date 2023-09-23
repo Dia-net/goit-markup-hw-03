@@ -62,6 +62,7 @@ text-transform: capitalize;
 .header-navigation{
 display: flex;
 flex-grow: 1;
+align-items: center;
 
   
 }
@@ -88,9 +89,8 @@ text-transform: uppercase;
 }
 .header-menu{
     display: flex;
-    align-items: center;
   gap: 40px;
-
+  
 }
 .header-menu-link {
     color: #2E2F42;
@@ -112,9 +112,10 @@ padding: 24px 0 24px;
    
 .contacts-menu {
     display: flex;
-  align-items: center;
   gap: 40px;
   margin-left: auto;
+  padding-top: 100px;
+
 }
 
 
@@ -213,8 +214,7 @@ letter-spacing: 0.02em;
 
 /* =====OUT TEAM===== */
 .team-container{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 .team{
     background: #F4F4FD;
@@ -230,6 +230,9 @@ letter-spacing: 0.02em;
     border-radius: 0px 0px 4px 4px;
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+.team-item-name{
+    padding: 32px 0;
+}
 
 .team-title{
     color: #2E2F42;
@@ -241,7 +244,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 margin-bottom: 72px;
 }
-.team-subtitle {
+.team-subtitle-person {
     color: #2E2F42;
     background-color: #FFFFFF;
 text-align: center;
@@ -325,9 +328,10 @@ margin-bottom: 32px;
 /* =====FOOTER===== */
 .footer {
     background: #2E2F42;
+    padding: 100px 0;
 }
 .footer-container{
-    padding: 100px 0 100px;
+    
 }
 .footer-logo {
  color: #4D5AE5;
