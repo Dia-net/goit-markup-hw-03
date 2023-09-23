@@ -301,12 +301,13 @@ text-transform: capitalize;
 margin-bottom: 72px;
 }
 .portfolio-container{
-    padding-top: 120px; 
-    padding-bottom: 120px;
-    row-gap: 48px;
+    p
+    
 }
 .portfolio {
     background-color: #FFF;
+    padding-top: 120px; 
+    padding-bottom: 120px;
    
 }
 
@@ -314,6 +315,7 @@ margin-bottom: 72px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
 
 }
 .portfolio-container{
